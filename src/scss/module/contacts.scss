@@ -1,0 +1,54 @@
+.contacts {
+    display: flex;
+    justify-content: center;
+    background: $black_bg;
+    
+    .container {
+        width: $mediaMD;
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 0;
+    }
+    .description {
+        width: 320px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+    .contacts_list {
+        font-size: 16px;
+        font-family: 'EB Garamond', serif;
+        h2 {
+            font-weight: 400;
+            font-size: 29px;
+            line-height: 1.6;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+        address {
+            margin-bottom: 15px;
+        }
+        .phone {
+            margin-bottom: 5px;
+        }
+        a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    }
+    .work_time {
+        font-size: 16px;
+        font-family: 'EB Garamond', serif;
+        h2 {
+            font-weight: 400;
+            font-size: 29px;
+            line-height: 1.6;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 5px;
+        }
+    }
+}
+

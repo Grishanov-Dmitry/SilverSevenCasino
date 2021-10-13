@@ -1,0 +1,30 @@
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('img/bg_1.jpg') no-repeat;
+    background-size: cover;
+    height: 500px; // Check after adding content
+    
+    .header {
+        font-size: 42px;
+        font-family: 'Allura';
+        font-style: italic;
+        text-transform: uppercase;
+    }
+    h3 {
+        font-size: 45px;
+        font-weight: 700;
+        font-family: 'PT Serif', serif;
+        margin-bottom: 30px;
+    }
+    .description {
+        font-size: 18px;
+        line-height: 1.6;
+        font-weight: 400;
+        font-style: italic;
+        font-family: 'PT Serif', serif;
+        margin-bottom: 15px;
+    }
+}

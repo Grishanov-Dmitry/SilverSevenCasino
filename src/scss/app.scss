@@ -1,6 +1,8 @@
 @import "variables/media";
+@import "variables/colors";
 
 @import "mixin/media";
+@import "mixin/classes";
 
 @import "util/grid";
 
@@ -11,7 +13,10 @@
 @import 'base/base';
 @import 'base/fonts';
 
-@import 'module/cat';
-
-
-
+@import 'module/header';
+@import 'module/main';
+@import 'module/introduction';
+@import 'module/allGamesHere';
+@import 'module/contacts';
+@import 'module/gallery';
+@import 'module/infoBlock-1';

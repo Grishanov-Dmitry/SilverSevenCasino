@@ -2,23 +2,7 @@
 ## Features
 * Easy to start `yarn install` + `yarn start` (`npm install` + `npm start`)
 * Don't worry about webpack config, just code
-* Custom HTML Modules plugin
-```html
-        <!DOCTYPE html>
-        <html>
-        <head>
-            <title>Example doc</title>
-        </head>
-        <body>
-            <include>_header.html</include>
-            <h1>Catalog products</h1>
-            <include>_products-filter.html</include>
-            <include>_products-list.html</include>
-            <include>_footer.html</include>
-        </body>
-        </html>
-
-```
+* Custom HTML Modules plugin\
 * HTML hot reload(Livereload)
 * SCSS (SASS)
 * jQuery already installed
@@ -59,3 +43,5 @@ npm run build
 or
 yarn build
 ```
+
+3d slider https://www.cssscript.com/3d-carousel-mouse-touch/

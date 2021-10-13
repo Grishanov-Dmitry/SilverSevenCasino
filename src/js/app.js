@@ -1,6 +1,6 @@
 import $ from 'jquery';
 
-import './module/cat';
+import './module/carousel';
 
 window.$ = $;
 window.jQuery = $;

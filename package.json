@@ -14,6 +14,7 @@
     "author": "izica <artemiztomska@gmail.com>",
     "license": "MIT",
     "dependencies": {
+        "image-webpack-loader": "^7.0.1",
         "jquery": "^3.3.1"
     },
     "devDependencies": {
