@@ -51,14 +51,24 @@
 }
 
 #drag-container p {
-  font-family: Serif;
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%) rotateX(90deg);
-  transform: translate(-50%, -50%) rotateX(90deg);
-  color: #fff;
-  font-size: 62px;
+    font-family: Serif;
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    top: 100%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) rotateX(
+90deg);
+    transform: translate(-50%, -50%) rotateX(
+90deg);
+    color: #fff;
+    font-size: 62px;
+    background-image: url(http://localhost:8080/../../img/SilverSeven_Card.png);
+    background-size: 140%;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.3;
 }
 
 #ground {
