@@ -6,23 +6,40 @@
     .container {
         width: $mediaMD;
         display: flex;
-        justify-content: space-between;
-        padding: 100px 0;
+        justify-content: space-around;
+        padding: 50px 0;
     }
     .description {
-        width: 320px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.7;
-    }
-    .contacts_list {
-        font-size: 16px;
-        font-family: 'EB Garamond', serif;
+        width: 200px;
+        align-items: flex-start;
+        text-align: center;
+
         h2 {
             font-weight: 400;
-            font-size: 29px;
+            font-size: 24px;
             line-height: 1.6;
             letter-spacing: 2px;
+            margin-bottom: 10px;
+            }
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 5px;
+        }    
+
+    }
+    .contacts_list {
+        font-size: 20px;
+        line-height: 2;
+        font-family: 'EB Garamond', serif;
+        text-align: center;
+        h2 {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 1.6;
+            letter-spacing: 2px;
+           
             margin-bottom: 10px;
         }
         address {
@@ -34,16 +51,32 @@
         a {
             color: #FFFFFF;
             text-decoration: none;
+            align-items: center;
+        }
+        .phone a:after {
+            content: '';
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            margin: 5px 10px;
+            background-size: contain;
+            background-position: center;
+            background-image: url(/img/telegram.png);
+            align-items: center;
+    
         }
     }
     .work_time {
+        width: 200px;
         font-size: 16px;
         font-family: 'EB Garamond', serif;
+        text-align: center;
         h2 {
             font-weight: 400;
-            font-size: 29px;
+            font-size: 24px;
             line-height: 1.6;
             letter-spacing: 2px;
+            text-align: center;
             margin-bottom: 10px;
         }
         p {

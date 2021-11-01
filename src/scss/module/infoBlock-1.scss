@@ -1,6 +1,7 @@
 .infoBlock {
     display: flex;
     justify-content: center;
+    height: 500px;
     
     .description {
         display: flex;
@@ -13,6 +14,7 @@
         h2 {
             font-weight: 400;
             font-family: 'PT Serif', serif;
+            font-style: italic;
             color: #ffffff;
             font-size: 55px;
             margin-bottom: 30px;
@@ -23,7 +25,7 @@
             font-style: italic;
             font-family: 'PT Serif', serif;
             color: #ffffff;
-            font-size: 18px;
+            font-size: 30px;
             line-height: 1.6;
             text-align: center;
         }
@@ -32,19 +34,21 @@
         flex: 1;
     }
     .infoBlockDescriptions-1 {
-        background: url('img/bg_2.jpg');
+        background: url('img/IMG-110.jpg');
     }
     .infoBlockDescriptions-2 {
-        background: url('img/bg_3.jpg');
+        background: url('img/IMG-4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .infoBlockImage-1 {
         background-size: cover;
-        background-image: url('img/carousel/IMG-7.jpg');
+        background-image: url('img/IMG-102.jpg');
         background-position: 0;
         background-color: #65676a;
     }
     .infoBlockImage-2 {
-        background: url('img/img_2.jpg');
+        background: url('img/IMG-54.jpg');
         background-size: cover;
         background-position: 0;
     }
