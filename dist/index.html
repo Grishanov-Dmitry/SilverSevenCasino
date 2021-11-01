@@ -11,17 +11,18 @@
         <div class="logo"></div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#gallery_anchor">Gallery</a></li>
-                <li><a href="#contact_anchor">Contact</a></li>
+                <li><a href="#introduction">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#gallery_anchor">Галерея</a></li>
+                <li><a href="#contact_anchor">Контакты</a></li>
             </ul>
         </nav>
     </div>
 </header>
 
     <main>
-    <article class="introduction">
+    <article class="introduction" id ="introduction">
+    <!-- <img src="/assets/img/cardSilver-removebg-PNG.png" alt=""> -->
     <p class="header">Удовольствие в игре</p>
     <h3>Играй, отдыхай, выигрывай!</h3>
     <p class="description">Работаем для вас 24/7</p>
@@ -30,24 +31,49 @@
     <article class="all_games_here">
     <div class="container">
         <h2>Все игры - здесь!</h2>
-        <p class="slogan">If you love to play cards, The Gardens is your place to get lucky! Game On.</p>
+        <p class="slogan"></p>
         <div class="white_line">
             <div class="line_image all_games_here__line_image"></div>
             <a name='some_name'></a>
         </div>
     </div>
 </article>
-    <article class="infoBlock">
+    <article class="infoBlock" id = "about">
     <div class="description infoBlockDescriptions-1">
-        <h2>How it All Started</h2>
-        <p>Our Casino is owned by the Nooksack Tribe, and opened in 2007. 
+        <h2>21 ИГРОВОЙ АВТОМАТ</h2>
+        <p> Более 50 различных игр на любой вкус 
+            <!-- Our Casino is owned by the Nooksack Tribe, and opened in 2007. 
             It is conveniently located in Lynden, only 10 minutes from either 
             Lynden/Aldergrove or Sumas/Abbotsford border crossings. The Nooksack 
             Tribe is a federally recognized American Indian
-             Nation of over 1800 enrolled members.
+             Nation of over 1800 enrolled members. -->
         </p>
     </div>
     <div class="image infoBlockImage-1"></div>
+</article>
+    <article class="addition_comfort">
+    <div class="container">
+        <h2>Электронная рулетка от EGT!</h2>
+        <p class="slogan">
+            <!-- Все что нужно для комфортного проведени времени -->
+        </p>
+        <div class="white_line">
+            <div class="line_image addition_comfort__line_image"></div>
+        </div>
+    </div>
+</article>
+    <article class="infoBlock">
+    <div class="image infoBlockImage-2"></div>
+    <div class="description infoBlockDescriptions-2">
+        <!-- <h2>We’re Awesome</h2>
+        <p>
+            You are welcome to park your RV overnight at Our Casino! We have 10 available spots,
+             8 of which are equipped with 30 Amp power hookups. Spots are awarded on a first come, 
+             first served basis, at a cost of $7 per night for Winners Club members, and $30 per 
+             night for non-members. Please come to the Cashier when you arrive to pay for your spot.
+              Click here to learn how to earn FREE nights.
+        </p> -->
+    </div>
 </article>
     <article class="addition_comfort">
     <div class="container">
@@ -58,19 +84,26 @@
         </div>
     </div>
 </article>
-    <article class="infoBlock">
-    <div class="image infoBlockImage-2"></div>
-    <div class="description infoBlockDescriptions-2">
-        <h2>We’re Awesome</h2>
-        <p>
-            You are welcome to park your RV overnight at Our Casino! We have 10 available spots,
-             8 of which are equipped with 30 Amp power hookups. Spots are awarded on a first come, 
-             first served basis, at a cost of $7 per night for Winners Club members, and $30 per 
-             night for non-members. Please come to the Cashier when you arrive to pay for your spot.
-              Click here to learn how to earn FREE nights.
-        </p>
+    <div class="slider">
+    <div class="slider__wrapper">
+      <div class="slider__items">
+        <div class="slider__item">
+          <div class = "slider__item_photo photo_1" ></div>
+        </div>
+        <div class="slider__item">
+          <div class = "slider__item_photo photo_2"></div>
+        </div>
+        <div class="slider__item">
+          <div class = "slider__item_photo photo_3"></div>
+        </div>
+        <div class="slider__item">
+          <div class = "slider__item_photo photo_4"></div>
+        </div>
+      </div>
     </div>
-</article>
+    <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+    <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+  </div>
     <div class="gallery_container">
     <a name='gallery_anchor'></a>
     <div id="drag-container">
@@ -79,8 +112,11 @@
           <!-- Images -->
           <img src="assets/img/carousel/IMG-4.jpg" alt="Alt" />
           <img src="assets/img/carousel/IMG-6.jpg" alt="Alt" />
-          <img src="img/carousel/IMG-9.jpg" alt="Alt" />
-          <img src="img/carousel/IMG-10.jpg" alt="Alt" />
+          <img src="assets/img/carousel/IMG-103.jpg" alt="Alt" />
+          <img src="assets/img/carousel/IMG-9.jpg" alt="Alt" />
+          <img src="assets/img/carousel/IMG-10.jpg" alt="Alt" />
+          <img src="assets/img/carousel/IMG-108.jpg" alt="Alt" />
+          
       
           <!-- Images With Links -->
           <!-- <a target="_blank" href="4.jpg">
@@ -88,13 +124,15 @@
           </a> -->
       
           <!-- Videos  -->
-          <video controls autoplay="autoplay" loop>
+          <!-- <video controls autoplay="autoplay" loop>
             <source src="1.mp4" type="video/mp4" />
-          </video>
+          </video> -->
       
           <!-- Title  -->
-          <p>Silver Seven</p>
-      
+          <p>
+            <!-- Silver Seven -->
+          </p>
+          <!-- <img src="assets/img/SilverSeven_Card.png" alt=""> -->
         </div>
         <div id="ground"></div>
     </div>
@@ -103,19 +141,20 @@
     <a name="contact_anchor"></a>
     <div class="container">
         <div class="description">
-            24 hours a day, 7 days a week - Escape to The Gardens to Get Your Game On! Grab a cocktail,
-             a snack, or a delicious meal from our international.
+           <h2>Бар </h2>
+           <p> 24/7</p> 
         </div>
         <div class="contacts_list">
-            <h2>Contacts</h2>
-            <address>Some address: Minsk street</address>
-            <p class="phone"><a href="tel:+1-800-555-5555">Call 1-800-555-5555</a></p>
-            <p><a href="mailto:vlad@htmlbook.ru">mailto:vlad@htmlbook.ru</a></p>
+            <h2>Контакты</h2>
+            <p>ООО«СильверСевен»</p>
+            <address> <a href="https://yandex.by/maps/-/CCUuEQU8wD"> 220125, г.Минск, ул.Гинтовта, д.30, пом.3 </a> </address>
+            <p class="phone"><a href="tel:+375 (29) 525-18-12">+375 (29) 525-18-12</a></p>
+            <!-- <p><a href="mailto:vlad@htmlbook.ru">mailto:vlad@htmlbook.ru</a></p> -->
         </div>
         <div class="work_time">
-            <h2>Work time</h2>
-            <p>Working days</p>
-            <p>Holidays</p>
+            <h2>Время работы</h2>
+            <p>24/7</p>
+            
         </div>
     </div>
 </article>
