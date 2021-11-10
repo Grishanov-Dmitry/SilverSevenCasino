@@ -3,6 +3,7 @@
     justify-content: center;
     background: $black_bg;
     
+    
     .container {
         width: $mediaMD;
         display: flex;
@@ -44,14 +45,16 @@
         }
         address {
             margin-bottom: 15px;
+
         }
         .phone {
             margin-bottom: 5px;
         }
         a {
             color: #FFFFFF;
-            text-decoration: none;
+            text-decoration: underline;
             align-items: center;
+            transition: all 1s ease-out;
         }
         .phone a:after {
             content: '';
@@ -66,6 +69,19 @@
     
         }
     }
+    .instagram_footer :after {
+            content: '';
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            margin: 10px 10px;
+            background-size: contain;
+            background-position: center;
+            background-image: url(/img/instargam_icon.png);
+            align-items: center;
+        }
+    
+
     .work_time {
         width: 200px;
         font-size: 16px;
@@ -82,6 +98,24 @@
         p {
             margin-bottom: 5px;
         }
-    }
+        
+    }  
 }
-
+.address a:hover,
+.phone a:hover,
+.instagram_footer a:hover {
+    color: 	#FFD700;
+    transition: all 1s ease-out;
+    }
+// .work_time  p:after {
+//             content: '';
+//             width: 25px;
+//             height: 25px;
+//             position: absolute;
+//             margin: 5px 10px;
+//             background-size: contain;
+//             background-position: center;
+//             background-image: url(/img/24_7.png);
+//             align-items: center;
+        
+//     }

@@ -1,7 +1,8 @@
+
 .gallery_container {
   overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  // display: -webkit-box;
+  // display: -ms-flexbox;
   display: flex;
   background: #111;
   -webkit-perspective: 1000px;
@@ -10,6 +11,18 @@
   transform-style: preserve-3d;
   height: 800px;
 }
+@media(max-width:$mediaSM) {
+  .gallery_container {
+    display:none;
+  }
+}
+
+
+// @media(max-width:768px) {
+//   .gallery_container {
+//     display:none;
+//   }
+// }
 
 #drag-container,
 #spin-container {

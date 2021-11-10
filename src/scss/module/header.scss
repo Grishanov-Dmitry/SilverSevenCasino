@@ -29,9 +29,11 @@ header {
     }
     nav ul li {
         padding: 25px 12px;
+        transition: all 1s ease-out;
     }
     nav ul li:hover {
         color: 	#FFD700;
+        transition: all 1s ease-out;
     }
     li a {
         text-decoration: none;
