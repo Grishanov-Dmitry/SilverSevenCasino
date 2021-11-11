@@ -1,4 +1,8 @@
-
+@media(max-width:768px) {
+  .carousel {
+    display:none;
+  }
+}
 .gallery_container {
   overflow: hidden;
   // display: -webkit-box;
@@ -11,11 +15,8 @@
   transform-style: preserve-3d;
   height: 800px;
 }
-@media(max-width:$mediaSM) {
-  .gallery_container {
-    display:none;
-  }
-}
+
+
 
 
 // @media(max-width:768px) {
@@ -27,8 +28,8 @@
 #drag-container,
 #spin-container {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  // display: -webkit-box;
+  // display: -ms-flexbox;
   display: flex;
   margin: auto;
   -webkit-transform-style: preserve-3d;
