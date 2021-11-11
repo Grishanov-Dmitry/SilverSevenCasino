@@ -1,8 +1,4 @@
-@media(max-width:768px) {
-  .carousel {
-    display:none;
-  }
-}
+
 .gallery_container {
   overflow: hidden;
   // display: -webkit-box;
@@ -16,14 +12,14 @@
   height: 800px;
 }
 
+@media(max-width:$mediaSM) {
+  .carousel {
+    display:none;
+  }
+}
 
 
 
-// @media(max-width:768px) {
-//   .gallery_container {
-//     display:none;
-//   }
-// }
 
 #drag-container,
 #spin-container {
