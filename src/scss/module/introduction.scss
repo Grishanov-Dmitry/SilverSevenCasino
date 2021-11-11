@@ -1,3 +1,8 @@
+@media (max-width:768px) {
+    .introduction {
+        background-attachment: scroll;
+      }
+    }     
 .introduction {
     display: flex;
     flex-direction: column;
@@ -10,7 +15,8 @@
     background-attachment: fixed;
     opacity: 1;
     height: 500px; // Check after adding content
-    
+  
+   
     .header {
         font-size: 42px;
         font-family: 'Allura';
