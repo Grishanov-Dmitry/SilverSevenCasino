@@ -32,7 +32,7 @@ const getPlugins = () => {
             }
         ]),
         new ExtractTextPlugin({
-            filename: './css/styles.css',
+            filename: './assets/styles.css',
             allChunks: true
         })
     ];
