@@ -1,3 +1,12 @@
+@media (max-width:$mediaSM) {
+    .contacts {
+        display: flex;
+        
+        .container {
+            flex-direction: column;
+        }
+    }
+}
 .contacts {
     display: flex;
     justify-content: center;

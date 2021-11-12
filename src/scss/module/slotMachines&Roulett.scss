@@ -36,6 +36,7 @@
     .infoBlockDescriptions-1 {
         width: 50%;
         background: url('img/IMG-110.jpg');
+        text-align: center;
     }
     .infoBlockDescriptions-2 {
         background: url('img/IMG-4.jpg');
@@ -49,8 +50,98 @@
         background-color: #65676a;
     }
     .infoBlockImage-2 {
-        background: url('img/IMG-54.jpg');
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(rgba(0, 0, 0, 0), black), url('img/IMG-54.jpg');
         background-size: cover;
         background-position: 0;
+        font-weight: 400;
+        font-family: 'PT Serif', serif;
+        font-style: italic;
+        color: #ffffff;
+        font-size: 55px;
+        text-transform: uppercase;
+        text-align: center;
+        overflow: hidden;
+
+
     }
-}
+    .infoBlockImage-2:before {
+       content: '';
+        gap: 0px;
+        width: 150px;
+        height: 150px;
+        align-self: flex-end;
+        background-size: contain;
+        background-position: center;
+        background-image: url(img/cardSilver-removebg-PNG.png);
+        background-repeat: no-repeat;
+        z-index: 5;
+    }
+} 
+
+
+
+
+@media (max-width:$mediaSM) {
+    .infoBlock {
+     background-size: contain;   
+     height: 300px;
+        
+        .infoBlockDescriptions-2 {
+          display: none;
+      }
+
+     .description {
+         
+         
+
+         h2 {
+            font-weight: 400;
+            font-family: 'PT Serif', serif;
+            font-style: italic;
+            color: #ffffff;
+            font-size: 35px;
+            text-align: center;
+        }
+        p {
+            width: auto;
+            font-weight: 400;
+            font-style: italic;
+            font-family: 'PT Serif', serif;
+            color: #ffffff;
+            font-size: 20px;
+            line-height: 1.6;
+            text-align: center;
+        }
+        }
+    .infoBlockImage-2 {
+        font-weight: 400;
+        font-family: 'PT Serif', serif;
+        font-style: italic;
+        color: #ffffff;
+        font-size: 35px;
+        
+
+
+    }    
+    .infoBlockImage-2:before {
+    content: '';
+    gap: 0px;
+    width: 150px;
+    height: 150px;
+    align-self: flex-end;
+    background-size: contain;
+    background-position: center;
+    background-image: url(http://localhost:8080/img/cardSilver-removebg-PNG.png);
+    background-repeat: no-repeat;
+    z-index: 5;
+    }
+    }
+
+     
+    
+
+ }
