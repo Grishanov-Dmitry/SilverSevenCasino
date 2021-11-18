@@ -11,6 +11,7 @@
         align-items: center;
     }
     h2 {
+        padding: 0 20px;
         font-weight: 400;
         font-size: 55px;
         line-height: 1;
@@ -18,11 +19,12 @@
         text-align: center;
     }
     .slogan {
+        padding: 0 20px;
         margin-bottom: 50px;
         text-align: center;
     }
     .white_line {
-        width: 100%;
+        width: 90%;
         border-top: 1px solid $white_half_opacity;
         position: relative;
     }
