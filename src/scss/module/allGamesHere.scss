@@ -12,7 +12,7 @@
     }
     h2 {
         font-weight: 400;
-        font-size: 55px;
+        font-size: 45px;
         line-height: 1;
         padding: 0 20px;
         text-align: center;
@@ -48,4 +48,32 @@
         background-size: contain;
         background-position: center;
     }
+}
+@media (max-width:$mediaSM) {
+    .all_games_here, .addition_comfort {
+   
+
+    .container {
+       
+    }
+    h2 {
+        font-size: 35px;
+    }
+    .slogan {
+        
+    }
+    .white_line {
+       
+    }
+    .line_image {
+       
+    }
+    .all_games_here__line_image::after {
+       
+    }
+    
+    .all_games_here__line_image::after {
+        
+    }
+}
 }

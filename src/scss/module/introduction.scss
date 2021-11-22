@@ -5,9 +5,11 @@
       
 .introduction {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    // margin-left: auto;
+    // margin-right: auto;
     left: 0;
+    padding: 0 20px;
+    text-align:center;
     // max-width: $mediaLG;
     // margin: 80px 0 0 0;
     // top: 500px;
@@ -24,22 +26,23 @@
     
   
     .header {
-        font-size: 42px;
-        font-family: 'Allura';
-        font-style: italic;
+        font-size: 45px;
+        font-weight: 700;
+        font-style: normal;
+        font-family: 'PT Serif', serif;
         text-transform: uppercase;
     }
     h3 {
         padding: 0 20px;
         font-size: 45px;
-        font-weight: 700;
+        font-weight: 400;
         font-family: 'PT Serif', serif;
         text-align: center;
         margin-bottom: 30px;
     }
     .description {
         padding: 0 20px;
-        font-size: 22px;
+        font-size: 28px;
         line-height: 1.6;
         font-weight: 400;
         font-style: italic;
@@ -51,15 +54,15 @@
     
      
       .header {
-        font-size: 25px;
+        font-size: 28px;
 
     }
         h3 {
-        font-size: 27px;
+        font-size: 28px;
         margin-bottom: 30px;
     }
         .description {
-        font-size: 16px;
+        font-size: 20px;
         margin-bottom: 15px;
     }
     }
@@ -68,14 +71,15 @@
 
  @media (max-width:$mediaSM) {
     .introduction {
-     background-size: contain;   
+    //  background-size: contain;   
      height: 300px;
     }
 
  }
  @media (max-width:407px) {
     .introduction {
-     margin: 130px 0 0 0;
+    
+    background-size: contain;
     }
 
  }

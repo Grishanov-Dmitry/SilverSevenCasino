@@ -13,7 +13,7 @@
     h2 {
         padding: 0 20px;
         font-weight: 400;
-        font-size: 55px;
+        font-size: 45px;
         line-height: 1;
         margin-bottom: 20px;
         text-align: center;
@@ -22,6 +22,9 @@
         padding: 0 20px;
         margin-bottom: 50px;
         text-align: center;
+        font-size: 28px;
+        font-weight: 400;
+        font-style: italic;
     }
     .white_line {
         width: 90%;
@@ -54,3 +57,37 @@
     }
 }
  
+@media (max-width:$mediaSM) {
+    .drinksForAll {
+    
+
+    .container {
+        
+    }
+    h2 {
+        
+        font-size: 35px;
+        
+    }
+    .slogan {
+        
+        font-size: 20px;
+       
+    }
+    .white_line {
+       
+    }
+    .line_image {
+        
+    }
+    .all_games_here__line_image::after {
+        
+    }
+    .addition_comfort__line_image::after {
+       
+    }
+    .all_games_here__line_image::after, .addition_comfort__line_image::after {
+        
+    }
+}
+}

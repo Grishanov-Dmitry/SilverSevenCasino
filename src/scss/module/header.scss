@@ -9,6 +9,7 @@ header {
     position: fixed;
     z-index: 10;
     
+    
 
     .container {
         left:0;
@@ -25,14 +26,19 @@ header {
         height: 85px;
         background: url('img/logo_temp_mini.png') no-repeat;
         background-size: contain; // Delete
+        background-position: center;
     }
     nav ul {
         
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         list-style: none;
         font-size: 20px;
+        font-family: 'PT Serif', serif;
+        font-weight: 400;
+        font-style: normal;
         letter-spacing: 2px;
+        
        
     }
     @media(max-width:$mediaSM) {
@@ -53,7 +59,7 @@ header {
        
     }
         nav {
-            width: 70%;
+            width: 100%;
         }
         nav ul li {
         align-items: center;
