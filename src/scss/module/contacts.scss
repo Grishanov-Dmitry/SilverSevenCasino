@@ -14,7 +14,7 @@
     }
     .description {
         width: 200px;
-        align-items: flex-start;
+        // align-items: flex-start;
         text-align: center;
 
         h2 {
@@ -22,6 +22,7 @@
             font-size: 20px;
             line-height: 1.6;
             letter-spacing: 2px;
+            // text-align: center;
             margin-bottom: 10px;
             }
         p {
@@ -35,8 +36,8 @@
     .contacts_list {
         font-size: 20px;
         line-height: 2;
-        font-family: 'EB Garamond', serif;
         text-align: center;
+        
         h2 {
             font-weight: 400;
             font-size: 20px;
@@ -88,7 +89,6 @@
     .work_time {
         width: 200px;
         font-size: 16px;
-        font-family: 'EB Garamond', serif;
         text-align: center;
         h2 {
             font-weight: 400;
@@ -99,7 +99,10 @@
             margin-bottom: 10px;
         }
         p {
-            margin-bottom: 5px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 5px
         }
         
     }  
@@ -138,7 +141,6 @@
             text-align: left;
 
         h2 {
-            margin-left: 0px;
             text-align: left;
             font-size: 15px;
             margin-bottom: 0px;
@@ -148,6 +150,7 @@
             margin-left: 0px;
             text-align: left;
             font-size: 15px;
+            margin-bottom: 0px;
             
         }    
 
@@ -155,10 +158,12 @@
     .contacts_list {
             align-items: flex-start;
             text-align: left;
+            margin:10px 0;
             
             h2 {
                 text-align: left;
                 font-size: 15px;
+                 margin-bottom: 0px;
                 
             }
             p {
@@ -171,12 +176,15 @@
                 text-align: left;
                 padding: 0 0;
                 font-size: 15px;
+                letter-spacing: 2px;
+                margin-bottom: 0px;
 
             }
             .phone {
                 text-align: left;
                 padding: 0 0;
                 font-size: 15px;
+                margin-bottom: 0px;
             }
             a {
                 
@@ -190,8 +198,8 @@
             }
     }
             .work_time {
-           display: contents;
-           text-align: left;
+            margin-left: 0px;
+            text-align: left;
 
             h2 {
             text-align: left;
@@ -199,8 +207,10 @@
             margin-bottom: 0px;
         }
             p {
+            margin-left: 0px;
             text-align: left;
             font-size: 15px;
+            margin-bottom: 0px;
         }
         
     }  
