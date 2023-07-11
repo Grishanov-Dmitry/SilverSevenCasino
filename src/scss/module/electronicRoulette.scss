@@ -1,0 +1,81 @@
+.addition_comfort {
+    display: flex;
+    justify-content: center;
+    background: $black_bg;
+    padding: 100px 0;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h2 {
+        padding: 0 20px;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 1;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .slogan {
+        margin-bottom: 50px;
+    }
+    .white_line {
+        width: 90%;
+        border-top: 1px solid $white_half_opacity;
+        position: relative;
+    }
+    .line_image {
+        width: 70px;
+        height: 50px;
+        background: $black_bg;
+        position: absolute;
+        left: 50%;
+        margin-left: -30px;
+        bottom: -25px;
+        padding: 0 10px;
+    }
+    .addition_comfort__line_image::after {
+        background: url('img/rulet.png') no-repeat;
+    }
+    .addition_comfort__line_image::after {
+        content: '';
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        background-size: contain;
+        background-position: center;
+    }
+
+}    
+@media (max-width:$mediaSM) {
+    .addition_comfort {
+    
+
+    .container {
+       
+    }
+    h2 {
+       
+        font-size: 35px;
+        
+    }
+    .slogan {
+       
+    }
+    .white_line {
+       
+    }
+    .line_image {
+        
+    }
+    .addition_comfort__line_image::after {
+        
+    }
+    .addition_comfort__line_image::after {
+        
+    }
+
+}    
+}

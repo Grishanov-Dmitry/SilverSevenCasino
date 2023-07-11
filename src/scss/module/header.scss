@@ -1,42 +1,86 @@
 header {
+    
     width: 100%;
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
+    top:0;
+    height: auto;
     background: $black_bg;
-    color: $white;
+    color:$white;
     position: fixed;
-    top: 0;
     z-index: 10;
+    
+    
 
     .container {
-        width: $mediaLG;
+        left:0;
+        margin: 0 auto;
+        position: relative;
+        max-width: $mediaLG;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
     .logo {
-        width: 100px;
-        height: 100px;
-        background: url('img/logo_temp.png') no-repeat;
+        
+        width:calc(100%/4*1);
+        height: 85px;
+        background: url('img/logo_temp_mini.png') no-repeat;
         background-size: contain; // Delete
+        background-position: center;
     }
     nav ul {
+        
         display: flex;
+        flex-wrap: nowrap;
         list-style: none;
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: 2.56px;
+        font-size: 20px;
+        font-family: 'PT Serif', serif;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 2px;
+        
+       
     }
+    @media(max-width:$mediaSM) {
+    //     header {
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    // }
+        .container {
+        justify-content: center;
+    }
+         nav ul {
+        
+        list-style: none;
+        font-size: 15px;
+        letter-spacing: 2px;
+        justify-content: space-between;
+       
+    }
+        nav {
+            width: 100%;
+        }
+        nav ul li {
+        align-items: center;
+    }
+    }
+
     nav ul li {
-        padding: 25px 12px;
+        padding: 25px 10px;
+        transition: all 1s ease-out;
     }
+
     nav ul li:hover {
         color: 	#FFD700;
+        transition: all 1s ease-out;
     }
+
     li a {
         text-decoration: none;
         color: inherit;
     }
+
     img {
         width: 100px;
         height: 100px;

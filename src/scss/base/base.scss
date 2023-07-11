@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
     outline: none;
+    scroll-behavior: smooth;
+    margin: 0 auto;
+    // overflow-x: hidden;
+    
 }
 
 body {
@@ -8,4 +12,10 @@ body {
     font-family: 'PT Serif', serif;
     color: #ffffff;
     letter-spacing: 0px;
+    overflow-x: hidden;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    
+    
 }
