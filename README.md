@@ -1,3 +1,16 @@
+######
+Add a new Spin version
+
+1. Create build folder in react-custom-roulette
+2. Rename the folder to spinapp (for example)
+3. Add the folder to dist of this app
+4. Fix urls when we use react-custom-roulette to spinapp
+5. Rename index.html file of spinapp to spin.html
+6. Move this file to dist/
+7. Copy this dist folder to a Hosting
+
+######
+
 # Webpack boilerplate with SASS(SCSS), HTML modules, Babel
 ## Features
 * Easy to start `yarn install` + `yarn start` (`npm install` + `npm start`)
